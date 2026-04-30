@@ -57,6 +57,14 @@ This confirms successful communication between:
 
 ---
 
+## 🎥 Demo Video
+
+- A live demonstration of the system in operation:
+
+https://youtu.be/_1tXXjvHVhw
+
+---
+
 ## 🧠 Result Analysis
 
 The system successfully demonstrates:
