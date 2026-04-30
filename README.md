@@ -1,53 +1,70 @@
-# 🌡️ DHT11 Temperature Monitoring using ESP8266 & Blynk
+# 🌡️ IoT Temperature Monitoring using ESP8266 & DHT11
 
-## 📌 Overview
-This project demonstrates how to interface a **DHT11 temperature sensor** with an **ESP8266 NodeMCU** to measure real-time temperature and display it on the **Blynk IoT platform**.
-
-It was developed as a mini project for the subject **EC-681 (Electronics and Communication Engineering)**.
+> 🚀 A real-time temperature monitoring system with wireless data transmission and cloud-based visualization using Blynk.
 
 ---
 
-## 🎯 Objectives
-- Interface DHT11 sensor with ESP8266 NodeMCU
-- Measure temperature in real-time
-- Display temperature data on the Blynk mobile app
+## 📌 About This Repository
+This repository contains an IoT-based temperature monitoring system built using the ESP8266 NodeMCU and DHT11 sensor.
+
+The system measures ambient temperature and displays it in real-time on a mobile dashboard using the Blynk IoT platform.
 
 ---
 
-## 🧠 Working Principle
-The DHT11 sensor reads temperature data and sends it to the ESP8266.  
-The ESP8266 processes the data and transmits it over Wi-Fi to the Blynk app, where it is displayed using virtual pins.
+## 📂 Repository Structure
+
+- `/code` → Firmware (ESP8266)  
+- `/assets` → Hardware images, circuit, and output proof  
+- `/docs` → Detailed project documentation  
+- `/setup` → Step-by-step setup guide  
 
 ---
 
-## 🧰 Components Used
-- ESP8266 NodeMCU
-- DHT11 Sensor Module
-- Breadboard
-- Jumper Wires
-- USB Cable
-- Arduino IDE
-- Blynk App
+## 📖 Documentation
+
+Detailed explanations are available in the `/docs` folder:
+
+- 📘 Overview  
+- ❗ Problem Statement  
+- 💡 Motivation  
+- 🎯 Proposed Solution  
+
+📄 Full Report: `docs/project_report.pdf`
 
 ---
 
-## ⚙️ Software & Tools
-- Arduino IDE
-- Blynk IoT Platform
-- Libraries:
-  - DHT Sensor Library
-  - Adafruit Unified Sensor Library
-  - Blynk Library
+## 📊 System Demonstration
+
+All working results, screenshots, and demo video are available in:
+
+👉 `assets/output/`
 
 ---
 
-## 🔌 Circuit Diagram
-![Circuit Diagram](assets/circuit.png)
+## ⚙️ Setup Guide
 
-> Add your circuit image inside a folder named `assets`
+To run this project locally, follow:
+
+👉 `setup/setup_guide.md`
 
 ---
 
 ## 💻 Code
-```cpp
-// Add your Arduino code here (or keep in a separate file like main.ino)
+
+Main firmware file: code/dht11_esp8266_temperature.ino
+
+---
+
+## ⚠️ Note
+Wi-Fi credentials and Blynk authentication token are removed from the code for security reasons.
+
+---
+
+## 👨‍💻 Author
+**Indrajit Bhowmick**  
+B.Tech (ECE) | IoT & Software Enthusiast  
+
+---
+
+## 📜 License
+This project is created for academic and learning purposes.
