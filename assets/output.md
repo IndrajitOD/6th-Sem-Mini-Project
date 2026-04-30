@@ -1,4 +1,4 @@
-<img width="1431" height="816" alt="Screenshot 2026-05-01 000157" src="https://github.com/user-attachments/assets/f427debb-0d50-46f4-8bdc-5c2de5bab38e" /># 📊 Output
+# 📊 Output
 
 > This section demonstrates the working of the system and validates its real-time temperature monitoring capability.
 
@@ -22,6 +22,7 @@ This confirms that the sensor is correctly reading and transmitting environmenta
 ## 🔥 Heat Test (Real-Time Response)
 
 <img width="639" height="376" alt="Screenshot 2026-05-01 000112" src="https://github.com/user-attachments/assets/c9400e2a-34d5-46c5-a1a8-eab65e053c99" />
+- 
 <img width="731" height="395" alt="Screenshot 2026-05-01 000124" src="https://github.com/user-attachments/assets/7ede5113-6f85-4fb3-b27f-d8be6c48a1a6" />
 
 To test the responsiveness of the system, heat was applied manually to the DHT11 sensor.
